@@ -1,0 +1,1 @@
+Projeto feito com intuito de aperfeiçoar mais o meu JavaScript, nesse projeto é possível interagir com as imagens do tênis que quando são ampliadas forma um carrossel de imagens feito via JavaScript  também é possível interagir com o carrinho quando clica no botão de adicionar ao carrinho
