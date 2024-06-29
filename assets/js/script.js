@@ -28,6 +28,10 @@ const ampliarImagem = (event) => {
 const carrossel = (event) => {
     const imageUrl = event.target.getAttribute('src')
     slideShow.style.marginLeft = imageMapping[imageUrl]
+    document.querySelectorAll('.imgs--carrossel').forEach(item => {
+        item.classList.remove('border')
+    })
+    event.target.classList.add('border')
 }
 
 const voltarSlide = () => {
